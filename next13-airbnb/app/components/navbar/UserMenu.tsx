@@ -37,7 +37,7 @@ const UserMenu = () => {
 			rounded-xl
 			shadow-md
 			w-[40vw]
-			md:w-[3/4]
+			md:w-3/4
 			bg-white
 			overflow-hidden
 			right-0
@@ -46,7 +46,8 @@ const UserMenu = () => {
 				>
 					<div className="flex flex-col cursor-pointer">
 						<>
-							<MenuItem />
+							<MenuItem onClick={() => {}} label="Login" />
+							<MenuItem onClick={() => {}} label="Sign up" />
 						</>
 					</div>
 				</div>
